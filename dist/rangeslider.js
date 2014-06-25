@@ -1,19 +1,4 @@
 /*! rangeslider.js - v0.3.0 | (c) 2014 @andreruffert | MIT license | https://github.com/andreruffert/rangeslider.js */
-'use strict';
-
-(function(factory) {
-    if (typeof define === 'function' && define.amd) {
-        // AMD. Register as an anonymous module.
-        define(['jquery'], factory);
-    }
-    else if (typeof exports === 'object') {
-        // CommonJS
-        factory(require('jquery'));
-    } else {
-        // Browser globals
-        factory(jQuery);
-    }
-}(function($) {
 
     /**
      * Range feature detection
@@ -308,5 +293,3 @@
             }
         });
     };
-
-}));
